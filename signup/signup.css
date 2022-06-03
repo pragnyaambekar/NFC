@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/*navbar*/
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+    background-color:#000000;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.navbar a,
+.navbar-brand {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-nav>li>a:hover {
+    background-color: #e3e7f1;
+    color: #000;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 90px;
+    padding: 20px;
+    font-size: 28px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.navbar-nav>li {
+    padding: 0px 10px;
+}
+
+.navbar-nav>li>a {
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+.row1 button {
+    margin: 10px 25%;
+    width: 30%;
+    border-color: none;
+}
+
+
+
+.row1 button:hover {
+    background-color:#e3e7f1;
+    color: #000;
+    border-color: none;
+}
+.signup a{
+    color: black;
+    text-decoration: none;
+}
+.signup:hover{
+    background-color:#e3e7f1;
+    color: #000;
+    border-color: none;
+
+}
+
+label {
+    text-align: left;
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+
+}
+.panel-heading h2{
+    font-weight: bold;
+}
+.panel-group {
+    margin-top: 2%;
+}
+
+.panel-body {
+    padding: 9px;
+    align-items: center;
+}
+.panel-body input{
+    width:70%;
+    margin-left: 35px;
+}
+.panel-primary>.panel-heading {
+    color: white;
+    background-color: #000000;
+    border-color: #000000;
+}
+label{
+    margin-left: 37px;
+}
+.name{
+    margin-top:15px;
+}
+
